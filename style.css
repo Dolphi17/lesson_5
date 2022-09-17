@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,900;1,700&display=swap');
+@font-face{
+    font-family: "Larsseit";
+    src: url("../fonts/Comfortaa-Regular.woff2") format("woff2"), url("../fonts/Comfortaa-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+color: blueviolet;
+font-family: "Playfair Display SC";
+font-weight: 900; 
+font-size: 60px; 
+width: 1700px;
+text-align: center;
+text-transform: uppercase;
+background-color: rgb(252, 174, 6);
+margin-left: 120px;
+
+}
+.content li{
+    color: blue;
+    font-family: "Playfair Display SC";
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: right;
+    padding-right: 3%;
+}
+.content h4{
+    color: orange;
+    font-family: "Playfair Display SC";
+    font-weight: 400;
+    font-size: 30px; 
+    text-align: right;
+
+}
+#literature li{
+    color: darkgreen;
+    font-family: "Playfair Display SC";
+    font-weight: 500;
+    white-space: nowrap;
+    word-spacing: 5px;
+    
+}
+
+#introduction p{
+    color: goldenrod;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    color: rgb(209, 51, 3);
+    font-family: "Playfair Display SC";
+    font-weight: 700;
+    font-style: italic;  
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px 10px;
+}
+footer{
+    color: blue;
+    font-family: "Comfortaa";
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+.cult > p{
+    font-family: "Comfortaa";
+    font-weight: 400;
+    text-shadow: 1px 1px 2px orange, -1px -1px 4px blue;
+    line-height: 1.5;
+    text-indent: 30px;
+}
